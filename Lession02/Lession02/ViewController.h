@@ -10,6 +10,10 @@
 
 @interface ViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UILabel *lblDisplay;
+@property (weak, nonatomic) IBOutlet UISegmentedControl *congViecSegment;
+
+- (IBAction)changingValue:(id)sender;
 - (IBAction)Display:(UIButton *)sender;
+- (IBAction)ChoseWorking:(id)sender;
 
 @end
